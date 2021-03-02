@@ -1,0 +1,79 @@
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+caption,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre
+{
+    font-size: 100%;
+    font-weight: normal;
+    font-family: anton, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#232d35;
+    background-color: #9BAEBC;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th,
+td
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+img
+{
+    border: 0;
+}
+
+body
+{
+    background-color: #4EB1E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputText, .selectedFilter
+{
+    background-color: #9BAEBC;
+    border: none;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+/* .inputText, .selectedFilter:focus
+{
+    outline: none;
+} */
+.inputText, .selectedFilter:hover
+{
+    outline: none;
+    background-color: #DB90BF;
+    
+}
